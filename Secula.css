@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/ozjTEvq.png");
+  background-image: url("images/2022-04-29_20.png");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -9,24 +9,18 @@
 .u-section-1 .u-image-1 {
   width: 570px;
   height: 171px;
-  margin: 179px auto 60px;
+  margin: 202px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 474px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 363px;
+    min-height: 552px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 263px;
+    min-height: 536px;
   }
 
   .u-section-1 .u-image-1 {
@@ -37,7 +31,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 203px;
+    min-height: 435px;
   }
 
   .u-section-1 .u-image-1 {
@@ -45,9 +39,21 @@
     height: 102px;
   }
 }.u-section-2 .u-sheet-1 {
+  min-height: 82px;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  background-image: none;
+  margin: 20px auto;
+}.u-section-3 .u-sheet-1 {
   min-height: 400px;
 }
 
-.u-section-2 .u-custom-html-1 {
+.u-section-3 .u-custom-html-1 {
   margin-bottom: 60px;
 }
