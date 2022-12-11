@@ -45,11 +45,6 @@
   margin: 22px 90px 60px;
 }
 
-.u-section-1-1 .u-btn-2 {
-  background-image: none;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
   .u-section-1-1 .u-sheet-1 {
     min-height: 676px;
@@ -130,11 +125,6 @@
   background-image: none;
   font-style: italic;
   margin: 22px 106px 60px;
-}
-
-.u-section-1-2 .u-btn-2 {
-  background-image: none;
-  padding: 0;
 }
 
 @media (max-width: 1199px) {
