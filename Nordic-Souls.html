@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="Nordic-Souls.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 5.1.5, nicepage.com">
+    <meta name="generator" content="Nicepage 5.3.2, nicepage.com">
     <link rel="icon" href="images/favicon.ico">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
@@ -78,7 +78,10 @@
         <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
           <p>Modlist providing a visual and gameplay overhaul designed to "freshen up" and streamline Skyrim, while taking inspirations from other games yet still staying true to Skyrim's Nordic theme.</p>
           <p align="center">
-            <a href="https://github.com/Geborgen/nordic-souls">GitHub Page</a> | <a href="https://www.nexusmods.com/skyrimspecialedition/mods/77497">Nexus Page</a> | <a href="https://discord.com/invite/nsJquPrHHE">Discord Support</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/GAMEPLAYGUIDE.md">Gameplay Guide</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/KNOWNISSUES.md">Known Issues</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/CHANGELOG.md">Changelog</a>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License</a>
+          </p>
+          <p align="center">
+            <a href="https://github.com/Geborgen/nordic-souls">GitHub Page</a> | <a href="https://www.nexusmods.com/skyrimspecialedition/mods/77497">Nexus Page</a> | <a href="https://discord.com/invite/9cRs3KPyuW">Discord Support</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/GAMEPLAYGUIDE.md">Gameplay Guide</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/KNOWNISSUES.md">Known Issues</a> | <a href="https://github.com/Geborgen/nordic-souls/blob/main/CHANGELOG.md">Changelog</a>
           </p>
           <p align="center"> Please read this document in its entirety before playing the list. </p>
           <h2 id="contents">Contents</h2>
@@ -144,6 +147,11 @@
                 </li>
                 <li>
                   <a href="#mod-configuration-menu">Mod Configuration Menu</a>
+                  <ul>
+                    <li>
+                      <a href="#easy-wheelmenu">Easy WheelMenu</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a href="#starting-the-game">Starting the Game</a>
@@ -181,6 +189,9 @@
           <p>
             <a href="https://loadorderlibrary.com/lists/nordic-souls">The full list of mods can be viewed on Load Order Library.</a>
           </p>
+          <p>
+            <a href="http://www.keyboard-layout-editor.com/#/gists/75d0b99d7b2f35cd7f9433b87e83c93d">The default keymap can be found here.</a>
+          </p>
           <h2 id="system-requirements">System Requirements</h2>
           <p>Nordic Souls was built on a low-to-mid-tier machine, with slightly older-gen parts. I run a 1080p 16:9 display.</p>
           <h3 id="my-specs">My Specs</h3>
@@ -190,7 +201,7 @@
             <li>RAM: 16GB DDR4</li>
           </ul>
           <p>My specs are the minimum recommended for the best experience. I get around 40-50 FPS in most exteriors.</p>
-          <p>The list requires ~220GB of free space (including downloads). Without downloads, it's ~142GB.</p>
+          <p>The list requires ~232GB of free space (including downloads). Without downloads, it's ~148GB.</p>
           <h2 id="installation">Installation</h2>
           <p>I HIGHLY recommend you buy Nexus Premium before installing the list. You <em>technically</em> don't need it, but it will be an extremely long manual process if you don't have it. If you are just updating the list, you can safely skip to <a href="#updating-the-list">this section</a>.
           </p>
@@ -207,14 +218,14 @@
             </li>
             <li>Set Skyrim to not <a href="https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable">automatically update</a>.
             </li>
-            <li>Fully uninstall Skyrim by deleting the folders <code>/Steam/steamapps/common/Skyrim Special Edition and folder</code> and <code>/Documents/My Games/Skyrim Special Edition</code>.
+            <li>Fully uninstall Skyrim by deleting the folders <code>/Steam/steamapps/common/Skyrim Special Edition and folder</code> and <code>/Documents/My Games/Skyrim Special Edition</code>, in addition to uninstalling through Steam.
             </li>
             <li>Reinstall Skyrim into a location that is NOT in Program Files. Somewhere like <code>C:\Games</code> is a good location. <a href="https://www.youtube.com/watch?v=DSF1iWCqsM8">See this tutorial for moving Steam libraries.</a>
             </li>
             <li>Launch the game and download all Creation Club add-ons, this should happen automatically. When complete, close the game.</li>
           </ol>
           <h4 id="pagefile">Pagefile</h4>
-          <p>Large modlists require a lot of memory. If there isn't enough memory, it might fail to allocate more and cause a memory-related crash. You can fix this with a pagefile, which essentially acts as virtual memory. A</p>
+          <p>Large modlists require a lot of memory. If there isn't enough memory, it might fail to allocate more and cause a memory-related crash. You can fix this with a pagefile, which essentially acts as virtual memory.</p>
           <p>To prevent memory crashes, perform the following steps to increase your pagefile size.</p>
           <ol>
             <li>Press <code>Win + R</code> and enter <code>sysdm.cpl ,3</code>
@@ -230,19 +241,20 @@
           </ol>
           <h3 id="list-installation">List Installation</h3>
           <h4 id="installing-wabbajack">Installing Wabbajack</h4>
-          <p>Once you have completed pre-installation, download the <a href="https://github.com/wabbajack-tools/wabbajack/releases">latest version of Wabbajack</a> and place it in a folder near or at the root of your drive, such as <code>C:\Wabbajack</code>. <strong>Do not place it in Program Files, on your desktop, or in your downloads folder.</strong>
+          <p>Once you have completed pre-installation, download the <a href="https://www.wabbajack.org/">latest version of Wabbajack</a> and place it in a folder near or at the root of your drive, such as <code>C:\Wabbajack</code>. <strong>Do not place it in Program Files, on your desktop, or in your downloads folder.</strong>
           </p>
           <h4 id="downloading-and-installing-the-list">Downloading and Installing the List</h4>
           <p>Downloading and installing Nordic Souls can take a long time depending on your internet connection and PC specs. I recommend you install it on an SSD, as everything will go much faster. Complete the steps below for installation.</p>
           <ol>
             <li>Create a folder near the root of your drive called <code>Nordic Souls</code>.
             </li>
-            <li>Download the .wabbajack file and open it.</li>
+            <li>Open Wabbajack, go to <code>Browse Modlists</code>, find Nordic Souls, and click the download arrow. Alternatively, download the .wabbajack file from this repository or the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/77497">Nexus page</a>, add it to your Wabbajack folder, and open it.
+            </li>
             <li>Set your installation folder to the folder you made in step 1 (e.g. <code>C:\Nordic Souls</code>).
             </li>
-            <li>Your downloads folder should be set automatically. If it isn’t, set it to <code>Nordic Souls\downloads</code>.
+            <li>Your downloads folder should be set automatically. If it isn’t, set it to either <code>Nordic Souls\downloads</code> or another location. It can even be on another drive.
             </li>
-            <li>Click the start button to begin. Follow any prompts on-screen. <em>Reiterating from earlier: if you do not have Nexus Premium, you will have to manually click through each mod. There are over 800 mods.</em>
+            <li>Click the start button to begin. Follow any prompts on-screen. <em>Reiterating from earlier: if you do not have Nexus Premium, you will have to manually click through each mod. There are over 900 mods.</em>
             </li>
             <li>Wait. It may take an hour or more depending on your connection. Read the rest of the readme and take a nap. If you have any errors during installation, see below. Otherwise, carry on to <a href="#post-installation">post-installation</a> when completed.
             </li>
@@ -270,14 +282,14 @@
               </ul>
             </li>
           </ul>
-          <p>If you are still having issues, visit the <a href="https://discord.com/invite/wabbajack">Wabbajack Discord</a>. <em>Do not use my server for Wabbajack support.</em>
+          <p>If you are still having issues, visit the <a href="https://discord.com/invite/wabbajack">Wabbajack Discord</a> or <a href="https://discord.com/invite/9cRs3KPyuW">my server</a>.
           </p>
           <h2 id="post-installation">Post-Installation</h2>
           <h3 id="stock-game">Stock Game</h3>
           <p>Nordic Souls includes the <strong>Stock Game</strong> feature. This is essentially a copy of Skyrim included with the installation folder, which has cleaned plugins and all required files. This means that everything is completely separate from your Steam installation of Skyrim (which is still required as the game files are not redistributed). Basically, you don't need to transfer any files to your game folder.
           </p>
           <h3 id="enb">ENB</h3>
-          <p>Nordic Souls includes a slightly modified version of the incredible <a href="https://www.nexusmods.com/skyrimspecialedition/mods/4796">Rudy ENB</a>. Press <code>F10</code> to toggle the FPS counter, <code>F11</code> to open the ENB configuration menu, and <code>F12</code> to toggle the ENB.
+          <p>Nordic Souls includes a slightly modified version of the incredible <a href="https://www.nexusmods.com/skyrimspecialedition/mods/4796">Rudy ENB</a>. Press <code>F10</code> to toggle the FPS counter, <code>F11</code> to open the ENB configuration menu, <code>F12</code> to toggle the ENB, and <code>F8</code> to take a screenshot.
           </p>
           <p>If you want to change the ENB, you must do the following:</p>
           <ul>
@@ -291,6 +303,10 @@
             </li>
             <li>Install the preset into the Stock Game folder.</li>
           </ul>
+          <p>Some recommended ENBs are <a href="https://www.nexusmods.com/skyrimspecialedition/mods/21543">PI-CHO</a> and <a href="https://www.nexusmods.com/skyrimspecialedition/mods/21543">Silent Horizons</a>.
+          </p>
+          <p>If you want to change the weather mod, disable <code>Obsidian Weathers &amp; Seasons</code>, look at the missing masters warning that MO2 gives, and disable plugins accordingly. You will not recieve support if things break, as this is a larger modification of the list (see #custommizing-the-list).
+          </p>
           <p>Do not delete the ENB binaries as this will cause issues with the list. If you don't want ENB, keep it toggled off.</p>
           <h3 id="customizing-the-list">Customizing the List</h3>
           <p>Under the <code>OPTIONAL CONTENT</code> separator, you can enable and disable things to your liking.
@@ -303,30 +319,31 @@
               <a href="https://www.nexusmods.com/skyrimspecialedition/mods/40722">Alternate Conversation Camera Plus</a> is <strong>enabled</strong> by default. Disable if you don't want zoom effect during dialogue.
             </li>
             <li>
-              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/49529">Simple Load Screens</a> is <strong>enabled</strong> by default. Disable if you don't want full screen load screens.
+              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/77185">Camera Noise</a> is <strong>enabled</strong> by default. Disable if you don't like the subtle camera-shake effect.
             </li>
             <li>
-              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/49881">Full Nordic UI Suite</a> is <strong>disabled</strong> by default. Enable if you want a different UI style.
+              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/49881">NORDIC UI Full Suite</a> is <strong>disabled</strong> by default. Enable if you want a different UI style.
             </li>
             <li>
-              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/55432">Custom Map Markers for Paper Maps by Mirhayasu</a> is <strong>disabled</strong> by default. Enable if you want a different style of map markers (from pre-1.2).
+              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/2357">Enhanced Blood Textures - No Screen Blood</a> is <strong>disabled</strong> by default. Enable if you don't like the screen blood that EBT adds.
+            </li>
+            <li>
+              <a href="https://kaidanmod.com/">Kaidan 2 Fart Patch</a> is <strong>disabled</strong> by default. Enable to make Kaidan fart. Only if you're close, though.
             </li>
             <li>
               <a href="https://www.nexusmods.com/skyrimspecialedition/mods/74498">NVIDIA Reflex Support</a> is <strong>disabled</strong> by default. Enable if you have an NVIDIA GPU (HIGHLY RECOMMENDED).
             </li>
             <li>
-              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/77185">Camera Noise</a> is <strong>disabled</strong> by default. Enable if you want a subtle camera-shake effect.
+              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/29381">The Ultimate Control Scheme</a> is <strong>disabled</strong> by default. Enable for better controller support.
             </li>
             <li>
-              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/1778">NS - Widescreen Fix</a> is <strong>disabled</strong> by default. Enable if you use a widescreen monitor, then check the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/75188">Untarnished UI</a> mod page for additional instructions.
+              <a href="https://www.nexusmods.com/skyrimspecialedition/mods/1778">NS - Widescreen Fix</a> is <strong>disabled</strong> by default. Enable if you use a widescreen monitor. Please note that this is very much untested, and might not even work with the included UI repplacers.
             </li>
           </ul>
-          <p>If you want the paper map style from pre-1.2 versions of the list, go to the <code>PAPER MAP</code> separator, disable <code>Skyrim Paper Map by Caro Tuts for FWMF</code> and <code>Solstheim Paper Map by Duncan for FWMF</code>, and enable <code>Paper Skyrim and Solstheim World Maps by Mirhayasu for FWMF</code>.
-          </p>
           <p>
-            <strong>Other than this, modifying the list in any way will void all support.</strong> I cannot guarantee that everything will work if you add or remove mods. If you do add mods that include plugins, they <strong>MUST</strong> load anywhere above the Synthesis patch, zero exceptions. The paper map plugins should always be at the very bottom of your load order.
+            <strong>Other than this, modifying the list in any way will void all support.</strong> I cannot guarantee that everything will work if you add or remove mods. If you do add mods that include plugins, they <strong>MUST</strong> load anywhere above the Synthesis patch, zero exceptions. The paper map plugin should always be at the very bottom of your load order.
           </p>
-          <p>As this may cause some confusion, I should clarify that I'm not against people editing the list. All I mean is that I probably won't be able to help if things break.</p>
+          <p>As this may cause some confusion, I should clarify that I'm not against people editing the list. All I mean is that I won't be able to help if things break. This also falls under Wabbajack's rule 11, meaning that any modifications you make, you do so at your own risk.</p>
           <h2 id="playing-the-list">Playing the List</h2>
           <h3 id="starting-up">Starting Up</h3>
           <p>Open the installation folder and open <code>ModOrganizer.exe</code>.
@@ -340,9 +357,18 @@
           <h3 id="mod-configuration-menu">Mod Configuration Menu</h3>
           <p>All MCMs have been pre-configured. Wait until all notifications on the top left are gone before opening the MCM. <strong>Failure to do so will cause quite a few issues later on and will require you to start a new save.</strong> You can tweak them to your liking if you want to customize your experience.
           </p>
-          <h3 id="starting-the-game">Starting the Game</h3>
-          <p>Character creation has been overhauled. High Poly Head should be selected automatically. Nordic Souls does not include any character presets, but you can easily add presets yourself by installing them like normal mods (ensure they use HPH). <em>If your character is frozen at first, just change the race. This is a known issue with Precision.</em>
+          <h4 id="easy-wheelmenu">Easy WheelMenu</h4>
+          <p>Easy WheelMenu requires special configuration.</p>
+          <ul>
+            <li>Open the <code>EasyWheel</code> MCM, go to <code>Maintenance</code>, and press <code>Load</code> under <code>User Settings</code>. 
+            </li>
+            <li>Go to <code>General</code>, un-tick <code>Hide Spells</code>, then tick it again.
+            </li>
+          </ul>
+          <p>Easy WheelMenu is now successfully configured. Press <code>K</code> to open.
           </p>
+          <h3 id="starting-the-game">Starting the Game</h3>
+          <p>Character creation has been overhauled. High Poly Head is selected automatically. Nordic Souls does not include any character presets, but you can easily add presets yourself by installing them like normal mods (their placement in the mod list doesn't matter). Ensure that installed presets use HPH.</p>
           <p>You will spawn in a cell. <strong>Wait until notifications have stopped appearing in the top right</strong> and then locate the Statue of Mara to select your starting point. You can go through the vanilla intro sequence if you want, but I recommend exploring all the options.
           </p>
           <h3 id="gameplay-guide">Gameplay Guide</h3>
@@ -354,7 +380,7 @@
           <p>Updating is like installing the list. Make sure your paths are the same, and tick <code>overwrite existing modlist</code>. <strong>Any changes you have made to the list will be reverted upon updating.</strong>
           </p>
           <h2 id="uninstalling-the-list">Uninstalling the List</h2>
-          <p>Just delete the folder. The Stock Game feature makes this simple.</p>
+          <p>Simply delete the folder, and you have uninstalled the list.</p>
           <h2 id="known-issues">Known Issues</h2>
           <p>Please refer to <a href="https://github.com/Geborgen/nordic-souls/blob/main/KNOWNISSUES.md">this page</a> before reporting an issue. Keep in mind that although I try to fix issues as they come up, I cannot fix everything. If your issue isn't listed, see below.
           </p>
@@ -368,8 +394,8 @@
           <ul>
             <li>All mod authors for their hard work</li>
             <li>The Wabbajack team for making this awesome tool</li>
-            <li>Monitor144 and Olivinism for playtesting</li>
             <li>Styyx for helping troubleshoot a lot of Wabbajack errors</li>
+            <li>All the members of my Discord who have helped develop the list, through finding issues and contributing ideas</li>
             <li>Based Department (you know who you are)</li>
           </ul>
         </div>
