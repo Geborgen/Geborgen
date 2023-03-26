@@ -59,9 +59,12 @@
   letter-spacing: 1px;
   margin: 20px auto;
 }.u-section-3 .u-sheet-1 {
-  min-height: 400px;
+  min-height: 8613px;
 }
 
 .u-section-3 .u-custom-html-1 {
   margin-bottom: 60px;
+  height: auto;
+  min-height: 8553px;
+  margin-top: -1px;
 }
