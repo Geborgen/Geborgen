@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="Nordic-Souls.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 5.11.2, nicepage.com">
+    <meta name="generator" content="Nicepage 5.12.7, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
     
@@ -155,6 +155,9 @@
                     </li>
                     <li>
                       <a href="#gamepad-support">Gamepad Support</a>
+                    </li>
+                    <li>
+                      <a href="#optional-racemenu-skins">Optional RaceMenu Skins</a>
                     </li>
                   </ul>
                 </li>
@@ -318,7 +321,7 @@
           <h3 id="stock-game-and-root-builder">Stock Game and Root Builder</h3>
           <p>Nordic Souls uses the <a href="https://github.com/The-Animonculory/Modding-Resources/blob/main/Stock%20Game%20Setup.md">Stock Game</a> method. This is essentially a copy of Skyrim included with the installation folder. This means that everything is completely separate from your Steam installation of Skyrim (which is still required as the game files are not redistributed).
           </p>
-          <p>The list also uses <a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Kezyma's Root Builder</a> to keep the stock game folder clean. Any mod that needs to be installed to the game folder is instead added to MO2 with a special file structure, and is added to the game folder whenever the game is running.
+          <p>The list also uses <a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720">Kezyma's Root Builder</a> to keep the stock game folder clean. Any mod that needs to be installed in the game folder is instead added to MO2 with a special file structure, and is then added to the game folder whenever the game is running.
           </p>
           <h3 id="customizing-the-list">Customizing the List</h3>
           <p>
@@ -373,8 +376,25 @@
             </li>
           </ul>
           <h4 id="gamepad-support">Gamepad Support</h4>
-          <p>For the purposes of this list, you can use the vanilla gamepad controlmap. The only thing you'll miss out on with the vanilla controlmap is dodging. You can change the dodge key in <code>TK Dodge RE.ini</code> to a gamepad key, but you may need to install a gamepad controlmap from the Nexus or make your own using <a href="https://hawk.bar/SkyrimControlMapper/">this tool</a>. You will not recieve official support for gamepad issues.
+          <p>For the purposes of this list, you can use the vanilla gamepad controlmap. The only thing you'll miss out on with the vanilla controlmap is dodging. You can change the dodge key in <code>TK Dodge RE.ini</code> to a gamepad key, but you may need to install a gamepad controlmap from the Nexus or make your own using <a href="https://hawk.bar/SkyrimControlMapper/">this tool</a>. You will not receive official support for gamepad issues.
           </p>
+          <h4 id="optional-racemenu-skins">Optional RaceMenu Skins</h4>
+          <p>Nordic Souls includes the <a href="https://www.nexusmods.com/skyrimspecialedition/mods/92345">Dynamic RaceMenu Interface Patcher (DRIP)</a> tool. This allows you to patch RaceMenu to be consistent with UI overhauls. 
+          </p>
+          <p>Unfortunately, due to the way the tool works, RaceMenu cannot come pre-patched with the list, so you will have to do it manually. Luckily, it's just a few clicks, and completely optional:</p>
+          <ol>
+            <li>Make sure you have <a href="https://www.java.com/en/download/">Java</a> installed.
+            </li>
+            <li>From the application dropdown box on the right, select <code>DRIP</code> and run it.
+            </li>
+            <li>Make sure your RaceMenu path is correct (<code>Nordic Souls/mods/RaceMenu</code>). It should be selected automatically.
+            </li>
+            <li>Select the patch for your UI overhaul of choice. Untarnished UI and Nordic UI are included by default, with Nordic UI selected automatically (<code>Nordic Souls\mods\RaceMenu - Nordic UI Patch - DRIP Patch\DRIP - NORDIC UI</code>). If you use Untarnished UI (list default), change it to <code>Nordic Souls\mods\RaceMenu - Untarnished UI Patch - DRIP Patch\DRIP - Untarnished UI</code>.
+            </li>
+            <li>Click <code>Patch!</code> and wait for it to finish.
+            </li>
+            <li>Close the program.</li>
+          </ol>
           <h2 id="playing-the-list">Playing the List</h2>
           <h3 id="starting-up">Starting Up</h3>
           <ul>
@@ -424,7 +444,7 @@
             <li>The Wabbajack team for making this awesome tool</li>
             <li>Other Wabbajack list authors for their help and inspiration</li>
             <li>The Community Helpers in my Discord server for their amazing assistance with ideas, testing, and community support</li>
-            <li>Everyone who has played the list that has helped in some way, through finding issues and contributing ideas</li>
+            <li>Everyone who has played the list that has helped in some way, by finding issues and contributing ideas</li>
             <li>Waffles for the logo and branding</li>
             <li>Based Department (you know who you are)</li>
           </ul>
