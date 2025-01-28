@@ -65,7 +65,7 @@
 .u-block-a9c2-4:not([data-block-selected]):not([data-cell-selected]) > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }.u-section-2 .u-sheet-1 {
-  min-height: 371px;
+  min-height: 368px;
 }
 
 .u-section-2 .u-text-1 {
@@ -105,8 +105,8 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: -45px 433px 0;
-  padding: 8px 56px 9px;
+  margin: -42px auto 0 99px;
+  padding: 8px 43px 9px 42px;
 }
 
 .u-section-2 .u-btn-3 {
@@ -121,88 +121,63 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  margin: -45px 767px 32px 99px;
-  padding: 8px 43px 9px 42px;
+  margin: -42px auto 32px;
+  padding: 8px 56px 9px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 420px;
+  }
+
   .u-section-2 .u-text-1 {
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-2 .u-btn-1 {
-    margin-right: auto;
-    margin-left: 621px;
+    margin-right: 46px;
   }
 
   .u-section-2 .u-btn-2 {
-    margin-left: 333px;
-    margin-right: 333px;
-  }
-
-  .u-section-2 .u-btn-3 {
-    margin-right: auto;
     margin-left: 46px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 588px;
+    min-height: 581px;
   }
 
   .u-section-2 .u-text-1 {
     width: auto;
-    margin-top: 34px;
   }
 
   .u-section-2 .u-btn-1 {
-    margin-top: 170px;
-    margin-left: auto;
-  }
-
-  .u-section-2 .u-btn-2 {
-    margin-top: -114px;
-    margin-left: auto;
+    margin-top: 168px;
     margin-right: auto;
   }
 
-  .u-section-2 .u-btn-3 {
-    margin-top: -114px;
+  .u-section-2 .u-btn-2 {
+    margin-top: -178px;
     margin-left: auto;
+  }
+
+  .u-section-2 .u-btn-3 {
+    margin-top: 26px;
     margin-bottom: 60px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 689px;
-  }
-
-  .u-section-2 .u-btn-2 {
-    margin-left: 133px;
-    margin-right: 133px;
+    min-height: 683px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 881px;
-  }
-
-  .u-section-2 .u-btn-1 {
-    margin-top: 169px;
-  }
-
-  .u-section-2 .u-btn-2 {
-    margin-top: -120px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .u-section-2 .u-btn-3 {
-    margin-top: -120px;
+    min-height: 888px;
   }
 }
 
@@ -212,15 +187,15 @@
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
-.u-section-2 .u-btn-3,
-.u-section-2 .u-btn-3:before,
-.u-section-2 .u-btn-3 > .u-container-layout:before {
-  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
-}
-
 .u-section-2 .u-btn-2,
 .u-section-2 .u-btn-2:before,
 .u-section-2 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-2 .u-btn-3,
+.u-section-2 .u-btn-3:before,
+.u-section-2 .u-btn-3 > .u-container-layout:before {
   transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
 }
 
@@ -295,18 +270,18 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 754px;
+  }
+
   .u-section-3 .u-text-1 {
-    margin-left: 324px;
-    margin-right: 324px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-3 .u-text-1 {
-    margin-left: 243px;
-    margin-right: 243px;
-  }
-
   .u-section-3 .u-video-1 {
     margin-right: 0;
   }
@@ -314,13 +289,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 524px;
-  }
-
-  .u-section-3 .u-text-1 {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    min-height: 529px;
   }
 
   .u-section-3 .u-video-1 {
@@ -771,8 +740,9 @@
   }
 
   .u-section-4 .u-text-1 {
-    margin-left: 211px;
-    margin-right: 211px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -863,12 +833,6 @@
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
     min-height: 2126px;
-  }
-
-  .u-section-4 .u-text-1 {
-    width: auto;
-    margin-left: 133px;
-    margin-right: 133px;
   }
 
   .u-section-4 .u-repeater-1 {
